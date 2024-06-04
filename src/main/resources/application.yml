@@ -1,0 +1,10 @@
+# api-cep
+
+rests:
+  via-cep:
+    url: viacep.com.br/ws
+
+# Spring Boot
+spring:
+  main:
+    banner-mode: "off"
