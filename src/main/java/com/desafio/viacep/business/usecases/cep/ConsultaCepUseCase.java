@@ -13,7 +13,7 @@ import static java.lang.String.format;
 @AllArgsConstructor
 public class ConsultaCepUseCase {
 
-    private static final String ERRO_CEP_NAO_ENCONTRADO = "CEP não encontrado %s";
+    private static final String ERRO_CEP_NAO_ENCONTRADO = "CEP não encontrado '%s'";
 
     private ConsultaCepValidator consultaCepValidator;
     private ConsultaCepRestFacade consultaCepRestFacade;
